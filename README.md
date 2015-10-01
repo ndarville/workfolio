@@ -4,7 +4,7 @@
 
     Again, you can do so using Git or the browser interface at `https://github.com/{{ github_username }}/{{ github_username }}.github.io/edit/master/data/links.yml`.
 
-Your site should, eventually, be updated to reflect the changes.
+Your site should, eventually, be updated to reflect the changes, with the feed available at `https://{{ github_username }}.github.io/links.atom`.
 
 NB: Remember to link to the HTTPS version of you website, as GitHub Pages does not redirect automatically.
 
