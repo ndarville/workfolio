@@ -1,0 +1,16 @@
+#- title: "Always use quotes"
+#  date: YYYY-MM-DD
+#  url:
+## Align `date` and `url` under title
+
+- title: "Is This Journalist Guilty of Low-Level Vandalism, or High-Damage Hacking?"
+  date: 29 Sep 2015
+  url: http://motherboard.vice.com/en_uk/read/low-level-vandalism-or-high-damage-hacking-day-two-of-the-matthew-keys-trial
+
+- title: "The Trial of Matthew Keys, the Journalist Who Allegedly Aided Anonymous, Begins"
+  date: 28 Sep 2015
+  url: http://motherboard.vice.com/en_uk/read/the-trial-of-matthew-keys-the-journalist-who-allegedly-aided-anonymous-begins
+
+- title: "Did PETA Name the Right Macaque in Its 'Monkey Selfie' Lawsuit?"
+  date: 28 Sep 2015
+  url: http://motherboard.vice.com/en_uk/read/did-peta-name-the-right-macaque-in-its-monkey-selfie-lawsuit
