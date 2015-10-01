@@ -1,8 +1,8 @@
-title: ""
+name: Sarah Jeong
 description: ""
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://sarahjeong.github.io
 data_source: data
+ga: UA-XXXXXXXX-Y
 
 # Build settings
 markdown: kramdown
