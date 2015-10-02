@@ -6,3 +6,8 @@ data_source: data
 
 # Build settings
 markdown: kramdown
+
+exclude:
+    - ".*" # Automatic, but just in case
+    - "*.log"
+    - "*.md"
