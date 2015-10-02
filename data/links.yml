@@ -1,7 +1,12 @@
-#- title: "Always use quotes"
+#- title: "Always use quotes---because article quotes and commas can break stuff"
 #  date: YYYY-MM-DD
-#  url:
-## Align `date` and `url` under title
+#  url: ""
+#  foo: "You can add as many additional values as you want, but only `title`, `date`, and `url` are used."
+## Below are some more example values
+#  awards: [Pulitzer, National Book Award, Nobel Prize in Literature]
+#  publication: The New Yorker
+
+## Always align `date`, `url` etc under `title`; otherwise it breaks.
 
 - title: "Is This Journalist Guilty of Low-Level Vandalism, or High-Damage Hacking?"
   date: 29 Sep 2015
