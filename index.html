@@ -26,8 +26,7 @@
         <main role="main">
             <ul>
             {% for link in site.data.links %}
-                <li>
-                    <time datetime="{{ link.date | date: "%Y-%m-%d" }}" is="time-ago" title="{{ link.date | date: "%Y-%m-%d" }}">{{ link.date | date_to_string }}</time> <span><a href="{{ link.url }}">{{ link.title | markdownify | strip_html }}</a></span></li>
+                <li><time datetime="{{ link.date | date: "%Y-%m-%d" }}" is="time-ago" title="{{ link.date | date: "%Y-%m-%d" }}">{{ link.date | date_to_string }}</time> <span><a href="{{ link.url }}">{{ link.title | markdownify | strip_html }}</a></span></li>
             {% endfor %}
             </ul>
         </main>
