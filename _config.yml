@@ -4,5 +4,7 @@ url: https://sarahjeong.github.io
 data_source: data
 ga: UA-XXXXXXXX-Y
 
+use_css: true
+
 # Build settings
 markdown: kramdown

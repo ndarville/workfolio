@@ -13,6 +13,10 @@
     {% endif %}
         <link rel="canonical" href="{{ site.url }}" />
         <link rel="alternate" href="/feed.atom" title="Feed" type="application/atom+xml" />
+    {% if site.use_css == true %}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha384-wKclsw1inR27tF/KhTEhyufz5SmBKSkOaIEKhq9qu8QbqeaMhzuGtCQmrghNKXq0" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" />
+    {% endif %}
     </head>
     <body>
         <header role="banner">
