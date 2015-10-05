@@ -1,14 +1,15 @@
+# Required settings
 name: Sarah Jeong
-description: ""
-url: //sarahjeong.github.io
-data_source: data
-ga: UA-XXXXXXXX-Y
+url: https:///sarahjeong.github.com
 
+# Optional settings
+description: ""
+ga: UA-XXXXXXXX-Y
 use_css: true
 
-# Build settings
+# Advanced settings
+data_source: data
 markdown: kramdown
-
 exclude:
     - ".*" # Automatic, but just in case
     - "*.log"
