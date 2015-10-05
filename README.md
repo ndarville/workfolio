@@ -12,8 +12,9 @@ How-To
 1. Create a GitHub user, if you don’t already have one. Here is the [registration page][].
 
     Make **sure** to choose a username that easily identifies you, eg
-        * `firstname|lastname`
-        * `firstnameInitial|lastname`
+
+    * `firstname|lastname`
+    * `firstnameInitial|lastname`
 
     as the username will be a part of the website URL.
 
