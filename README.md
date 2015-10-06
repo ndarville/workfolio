@@ -29,15 +29,15 @@ How-To
 
 4. Update `links.atom`, when you create new work you want to share.
 
-    Again, you can do so using Git or the browser interface at
+    You can do this with Git or the browser interface at
 
         https://github.com/{{ github_username }}/{{ github_username }}.github.io/edit/master/data/links.yml
 
-5. Update your config in `_config.yml` as well, using Git or from
+5. Update your config in `_config.yml` as well, using Git or the browser interface at
 
         https://github.com/{{ github_username }}/{{ github_username }}.github.io/edit/master/data/_config.yml
 
-    You only need to update the `name` and `url` fields.
+    You only need to update the `name` and `url` fields under `Required settings`.
 
 Your site should, eventually, be updated to reflect the changes, with the feed available at
 
