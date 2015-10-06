@@ -3,6 +3,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script type="text/javascript">
+            var host = "{{ site.url | remove: "https://" }}";
+            if ((host == window.location.host) && (window.location.protocol != "https:")) {
+                window.location.protocol = "https";
+            }
+        </script>
     {% if site.use_css == true %}
         <meta http-equiv="x-dns-prefetch-control" content="on" />
         <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />

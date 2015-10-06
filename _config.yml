@@ -1,6 +1,6 @@
 # Required settings
 name: Sarah Jeong
-url: https://sarahjeong.github.com
+url: https://sarahjeong.github.com # No trailing slash
 
 # Optional settings
 description: ""
