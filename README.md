@@ -55,8 +55,20 @@ I can’t get it to work :(
 -------------------------
 You’re welcome to contact me about this as well. We’ll figure it out.
 
-Can I set up an automated tweet about new articles?
----------------------------------------------------
+Will my site automatically be updated with new features?
+--------------------------------------------------------
+Nope. You’ll basically have to follow the so-called [commit history][] for updates that sound important to you and copy-paste them yourself.
+
+It is unlikely that there’ll be significant updates, but it is possible that changes will be made to `index.html` and `links.atom`, and perhaps `_config.yml`.
+
+Should this happen, and you *really* want to update your site, I recommend you just copy-paste the code to your current files and save the changes. I *do not* recommend you delete your site, re-create it, and then re-import this repo, as you will lose the information your entered in `data/links.yml` and `_config.yml`.
+
+For this reason, it never hurts to have a backup of `links.yml` somewhere else, should you manage to pull what I just described.
+
+Never underestimate your ability to do something obscenely dumb, especially when the hour’s late, or when when alcohol is involved.
+
+Can I set up automated tweets about new articles?
+-------------------------------------------------
 With [IFTTT][], yes.
 
 1. Create an IFTTT user
@@ -85,6 +97,7 @@ You can also use your RSS feed to trigger other events, be it with [IFTTT channe
 [create a repo]: https://github.com/new
 [custom-github-pages]: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
 [hafnia-times]: https://github.com/hafniatimes/hafniatimes.github.io
+[commit history]: https://github.com/ndarville/workfolio/commits/master
 [IFTTT]: https://ifttt.com
 [IFTTT recipe]: https://ifttt.com/myrecipes/personal/28755829
 [Connect your Twitter account]: https://ifttt.com/channels/twitter/activate
