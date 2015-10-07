@@ -74,7 +74,7 @@ With [IFTTT][], yes.
 
 You can change the recipe description too, if you want, but it’s not required.
 
-Do keep your wits about you and fill your backlog of articles *before* enabling this Twitter script, as you’ll subject your followers to a deluge of “new” RSS updates.
+**NB:**Do keep your wits about you and fill your backlog of articles *before* enabling this Twitter script, as you’ll subject your followers to a deluge of “new” RSS updates otherwise.
 
 Boom. You are now set to share your articles through both a website, an RSS feed, and now your Twitter account!
 
