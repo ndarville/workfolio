@@ -78,7 +78,7 @@ Do keep your wits about you and fill your backlog of articles *before* enabling 
 
 Boom. You are now set to share your articles through both a website, an RSS feed, and now your Twitter account!
 
-You can also use your RSS feed to trigger other events, be it with [IFTTT channels][ifttt-channels] or [Slack integrations][], or something else.
+You can also use your RSS feed to trigger other events, be it with [IFTTT channels][IFTTT channels] or [Slack integrations][], or something else.
 
 
 [registration page]: https://github.com/join
