@@ -57,7 +57,7 @@ You’re welcome to contact me about this as well. We’ll figure it out.
 
 Can I set up an automated tweet about new articles?
 ---------------------------------------------------
-With IFTTT, yes.
+With [IFTTT][], yes.
 
 1. Create an IFTTT user
 2. Use this [IFTTT recipe][] and replace the field `Field URL`
@@ -85,6 +85,7 @@ You can also use your RSS feed to trigger other events, be it with [IFTTT channe
 [create a repo]: https://github.com/new
 [custom-github-pages]: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
 [hafnia-times]: https://github.com/hafniatimes/hafniatimes.github.io
+[IFTTT]: https://ifttt.com
 [IFTTT recipe]: https://ifttt.com/myrecipes/personal/28755829
 [Connect your Twitter account]: https://ifttt.com/channels/twitter/activate
 [IFTTT channels]: https://ifttt.com/channels
