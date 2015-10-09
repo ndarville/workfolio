@@ -3,7 +3,9 @@ Workfolio
 With Workfolio, you can create a
 
 * hosted RSS feed for your work
-* well-designed overview of all your work, or a featured list
+* well-designed overview of your work
+
+(Or just a featured list of your work.)
 
 The site will be available at `github_username.github.io`.
 
@@ -33,23 +35,25 @@ How-To
 
         https://github.com/{{ github_username }}/{{ github_username }}.github.io/edit/master/data/links.yml
 
-5. Update your config in `_config.yml` as well, using Git or the browser interface at
+5. Update your config in `_config.yml` as well with Git or the browser interface at
 
         https://github.com/{{ github_username }}/{{ github_username }}.github.io/edit/master/data/_config.yml
 
     You only need to update the `name` and `url` fields under `Required settings`.
 
-Your site should, eventually, be updated to reflect the changes, with the feed available at
+Your site should eventually be updated to reflect the changes with the feed available at
 
     https://{{ github_username }}.github.io/links.atom
 
 Congrats on your new site!
 
-**NB:** Remember to link to the HTTPS version of you website, as GitHub Pages does not redirect from HTTP automatically. (If you forget, it’s not the end of the world.)
+**NB:** Remember to link to the *HTTPS* version of you website, as GitHub Pages does not redirect from HTTP automatically. (If you forget or don’t understand what this means, it’s not the end of the world.)
 
 Can I use a custom domain name?
 -------------------------------
-[You sure can][custom-github-pages], but this is for what you might call intermediate technical users. I use it myself for [some of my projects][hafnia-times].
+[You sure can][custom-github-pages], but this is for what you might call technical people.
+
+I use it myself for [some of my projects][hafnia-times].
 
 I can’t get it to work :(
 -------------------------
@@ -65,13 +69,13 @@ Should this happen, and you *really* want to update your site, I recommend you j
 
 For this reason, it never hurts to have a backup of `links.yml` somewhere else, should you manage to pull what I just described.
 
-Never underestimate your ability to do something obscenely dumb, especially when the hour’s late, or when when alcohol is involved.
+Never underestimate your ability to do something obscenely dumb, especially when the hour’s late or alcohol is involved.
 
 Can I set up automated tweets about new articles?
 -------------------------------------------------
 With [IFTTT][], yes.
 
-1. Create an IFTTT user
+1. [Create an IFTTT user][ifttt-create]
 2. Use this [IFTTT recipe][] and replace the field `Field URL`
 
         https://ndarville.github.io/feed.atom
@@ -84,11 +88,11 @@ With [IFTTT][], yes.
 
 3. [Connect your Twitter account][] to IFTTT for the recipe to work.
 
-You can change the recipe description too, if you want, but it’s not required.
+You can change the recipe description, too, if you want, but it’s not required.
 
-**NB:** Do keep your wits about you and fill your backlog of articles *before* enabling this Twitter script, as you’ll subject your followers to a deluge of “new” RSS updates otherwise.
+**NB:** Do keep your wits about you and fill your backlog of articles, *before* enabling this Twitter script, as you’ll subject your followers to a deluge of “new” RSS updates otherwise.
 
-Boom. You are now set to share your articles through both a website, an RSS feed, and now your Twitter account!
+Boom. You’re now set to share your articles through both a website, an RSS feed, and now your Twitter account!
 
 You can also use your RSS feed to trigger other events, be it with [IFTTT channels][IFTTT channels] or [Slack integrations][], or something else.
 
@@ -99,6 +103,7 @@ You can also use your RSS feed to trigger other events, be it with [IFTTT channe
 [hafnia-times]: https://github.com/hafniatimes/hafniatimes.github.io
 [commit history]: https://github.com/ndarville/workfolio/commits/master
 [IFTTT]: https://ifttt.com
+[ifttt-create]: https://ifttt.com/join
 [IFTTT recipe]: https://ifttt.com/myrecipes/personal/28755829
 [Connect your Twitter account]: https://ifttt.com/channels/twitter/activate
 [IFTTT channels]: https://ifttt.com/channels
