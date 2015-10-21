@@ -20,8 +20,9 @@ How-To
 
     as the username will be a part of the website URL.
 
-2. [Create a repo][] named `{{ github_username }}.github.io` on GitHub.
-3. Import the required code by going to
+2. Go to your [e-mail settings][] and make sure you’ve checked the box “Keep my email address private”.
+3. [Create a repo][] named `{{ github_username }}.github.io` on GitHub.
+4. Import the required code by going to
 
         https://import.github.com/{{ github_username }}/{{ github_username }}.github.io/import
 
@@ -29,13 +30,13 @@ How-To
 
         https://github.com/ndarville/workfolio
 
-4. Update `links.atom`, when you create new work you want to share.
+5. Update `links.atom`, when you create new work you want to share.
 
     You can do this with Git or the browser interface at
 
         https://github.com/{{ github_username }}/{{ github_username }}.github.io/edit/master/data/links.yml
 
-5. Update your config in `_config.yml` as well with Git or the browser interface at
+6. Update your config in `_config.yml` as well with Git or the browser interface at
 
         https://github.com/{{ github_username }}/{{ github_username }}.github.io/edit/master/data/_config.yml
 
@@ -98,6 +99,7 @@ You can also use your RSS feed to trigger other events, be it with [IFTTT channe
 
 
 [registration page]: https://github.com/join
+[e-mail settings]: https://github.com/settings/emails
 [create a repo]: https://github.com/new
 [custom-github-pages]: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
 [hafnia-times]: https://github.com/hafniatimes/hafniatimes.github.io
