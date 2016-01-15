@@ -11,6 +11,4 @@ use_css: true
 data_source: data
 markdown: kramdown
 exclude:
-    - ".*" # Automatic, but just in case
-    - "*.log"
     - "*.md"
