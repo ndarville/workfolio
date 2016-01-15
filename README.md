@@ -42,6 +42,10 @@ How-To
 
     You only need to update the `name` and `url` fields under `Required settings`.
 
+    **NB:** If you are using a private repository for this project, and you don’t want people to see your `links.yml` file, you must also delete this line in `_config.yml`:
+
+        data_source: data
+
 Your site should eventually be updated to reflect the changes with the feed available at
 
     https://{{ github_username }}.github.io/links.atom
