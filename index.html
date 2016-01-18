@@ -9,12 +9,6 @@
                 window.location.protocol = "https";
             }
         </script>
-    {% if site.use_css == true %}
-        <meta http-equiv="x-dns-prefetch-control" content="on" />
-        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
-        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    {% endif %}
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,8 +19,9 @@
         <link rel="canonical" href="{{ site.url }}" />
         <link rel="alternate" href="/links.atom" title="Feed" type="application/atom+xml" />
     {% if site.use_css == true %}
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha384-wKclsw1inR27tF/KhTEhyufz5SmBKSkOaIEKhq9qu8QbqeaMhzuGtCQmrghNKXq0" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" />
+        <link rel="stylesheet" type="text/css" href="/static/css/skeleton.min.css?v=noraleway" media="all" />
+        <link rel="stylesheet" type="text/css" href="/static/typefaces/css/fonts.css" media="deferred" onload="if(media!='all')media='all'" />
+        <noscript><link rel="stylesheet" type="text/css" href="/static/typefaces/css/fonts.css" media="all" /></noscript>
     {% endif %}
     </head>
     <body>
@@ -43,18 +38,32 @@
                 </ul>
             </nav>
     </main>
-    {% if site.ga != "UA-XXXXXXXX-Y" %}
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <script type="text/javascript" src="/static/js/fontfaceobserver.js"></script>
+    <script type="text/javascript">
+        var raleway300 = new FontFaceObserver("Raleway", {"weight": 300}),
+            raleway400 = new FontFaceObserver("Raleway", {"weight": 400}),
+            raleway600 = new FontFaceObserver("Raleway", {"weight": 600});
 
-            ga("create", "{{ site.ga }}", "{{ site.url | remove: "https://" }}");
-            ga("set", "anonymizeIp", true);
-            ga("set", "forceSSL", true);
-            ga("send", "pageview");
-        </script>
-    {% endif %}
+        Promise.all([
+            raleway300.check(),
+            raleway400.check(),
+            raleway600.check()
+        ]).then(function() {
+            document.documentElement.className += "fonts-loaded";
+        });
+    </script>
+{% if site.ga != "UA-XXXXXXXX-Y" %}
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga("create", "{{ site.ga }}", "{{ site.url | remove: "https://" }}");
+        ga("set", "anonymizeIp", true);
+        ga("set", "forceSSL", true);
+        ga("send", "pageview");
+    </script>
+{% endif %}
     </body>
 </html>
