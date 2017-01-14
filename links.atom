@@ -10,7 +10,7 @@
 
 {% for link in site.data.links %}
     <entry>
-        <title>{{ link.title | markdownify | strip_html | xml_escape }}</title>
+        <title>{{ link.title | smartify }}</title>
         <link href="{{ link.url }}"/>
         <updated>{{ link.date | date_to_xmlschema }}</updated>
     {% comment %}
