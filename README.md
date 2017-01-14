@@ -30,7 +30,7 @@ How-To
 
         https://github.com/ndarville/workfolio
 
-5. Update `links.atom`, when you create new work you want to share.
+5. Update `links.yml`, when you create new work you want to share.
 
     You can do this with Git or the browser interface at
 
