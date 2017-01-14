@@ -8,7 +8,7 @@ ga: UA-XXXXXXXX-Y
 use_css: true
 
 # Advanced settings
-data_source: data
+data_dir: data
 markdown: kramdown
 exclude:
     - "*.md"

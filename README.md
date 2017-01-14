@@ -46,7 +46,7 @@ How-To
 
     **NB:** If you are using a private repository for this project, and you don’t want people to see your `links.yml` file, you must also delete this line in `_config.yml`:
 
-        data_source: data
+        data_dir: data
 
 Your site should eventually be updated to reflect the changes with the feed available at
 
