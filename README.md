@@ -9,6 +9,8 @@ With Workfolio, you can create a
 
 The site will be available at `github_username.github.io`.
 
+If you know your way around Jekyll, GitHub, or static pages, you’ll also know how to host this elsewhere.
+
 How-To
 ------
 1. Create a GitHub user, if you don’t already have one. Here is the [registration page][].
@@ -101,6 +103,10 @@ Boom. You’re now set to share your articles through both a website, an RSS fee
 
 You can also use your RSS feed to trigger other events, be it with [IFTTT channels][IFTTT channels] or [Slack integrations][], or something else.
 
+Credits
+-------
+* [skeleton.css][], the CSS framework for this project
+
 
 [registration page]: https://github.com/join
 [e-mail settings]: https://github.com/settings/emails
@@ -114,3 +120,4 @@ You can also use your RSS feed to trigger other events, be it with [IFTTT channe
 [Connect your Twitter account]: https://ifttt.com/channels/twitter/activate
 [IFTTT channels]: https://ifttt.com/channels
 [Slack integrations]: https://ndarville.com/projects/slack/
+[skeleton.css]: http://getskeleton.com
