@@ -103,6 +103,10 @@ Boom. You’re now set to share your articles through both a website, an RSS fee
 
 You can also use your RSS feed to trigger other events, be it with [IFTTT channels][IFTTT channels] or [Slack integrations][], or something else.
 
+Related projects
+----------------
+* [Wishlist][]
+
 Credits
 -------
 * [skeleton.css][], the CSS framework for this project
@@ -120,4 +124,5 @@ Credits
 [Connect your Twitter account]: https://ifttt.com/channels/twitter/activate
 [IFTTT channels]: https://ifttt.com/channels
 [Slack integrations]: https://ndarville.com/projects/slack/
+[wishlist]: https://github.com/ndarville/wishlist
 [skeleton.css]: http://getskeleton.com
