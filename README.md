@@ -36,11 +36,11 @@ How-To
 
     You can do this with Git or the browser interface at
 
-        https://github.com/{{ github_username }}/{{ github_username }}.github.io/edit/master/data/links.yml
+        https://github.com/{{ github_username }}/{{ github_repo }}/edit/master/data/links.yml
 
 6. Update your config in `_config.yml` as well with Git or the browser interface at
 
-        https://github.com/{{ github_username }}/{{ github_username }}.github.io/edit/master/data/_config.yml
+        https://github.com/{{ github_username }}/{{ github_repo }}/edit/master/data/_config.yml
 
     You only need to update the `name` and `url` fields under `Required settings`.
 
@@ -48,13 +48,15 @@ How-To
 
         data_dir: data
 
+7. Go to the settings of your repo, `github.com/{{ github_username }}/your_repo/settings` under Options and GitHub GitHub Pages.
+
+    There, check the box on **Enforce HTTPS**. You can also set the custom domain here, which is handled by the `CNAME` file in your repo.
+
 Your site should eventually be updated to reflect the changes with the feed available at
 
     https://{{ github_username }}.github.io/links.atom
 
 Congrats on your new site!
-
-**NB:** Remember to link to the *HTTPS* version of you website, as GitHub Pages does not redirect from HTTP automatically. (If you forget or don’t understand what this means, it’s not the end of the world.)
 
 Can I use a custom domain name?
 -------------------------------
