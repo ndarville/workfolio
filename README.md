@@ -48,13 +48,17 @@ How-To
 
         data_dir: data
 
-7. Go to the settings of your repo, `github.com/{{ github_username }}/your_repo/settings` under Options and GitHub GitHub Pages.
+7. Go to the settings of your repo, `github.com/{{ github_username }}/your_repo/settings` under Options
 
-    There, check the box on **Enforce HTTPS**. You can also set the custom domain here, which is handled by the `CNAME` file in your repo.
+8. Under GitHub Pages:
+
+    * Under **Source**, click the drop-down and select “master branch” at the top.
+    * Check **Enforce HTTPS**.
+    * You can also set the custom domain here, which is handled by the `CNAME` file in your repo.
 
 Your site should eventually be updated to reflect the changes with the feed available at
 
-    https://{{ github_username }}.github.io/links.atom
+    https://{{ github_username }}.github.io
 
 Congrats on your new site!
 
