@@ -38,7 +38,8 @@
             <nav class="twelve columns" role="navigation">
                 <ul>
                 {% for link in site.data.links %}
-                    <li><time datetime="{{ link.date | date: "%Y-%m-%d" }}" is="time-ago" title="{{ link.date | date: "%Y-%m-%d" }}">{{ link.date | date_to_string }}</time> <span><a href="{{ link.url }}">{{ link.title | markdownify | strip_html }}</a></span></li>
+                    {% capture archive_url %}{% if link.archive %}{{ link.archive }}{% else %}https://web.archive.org/web/*/{{ link.url }}{% endif %}{% endcapture %}
+                    <li><time datetime="{{ link.date | date: "%Y-%m-%d" }}" is="time-ago" title="{{ link.date | date: "%Y-%m-%d" }}">{{ link.date | date_to_string }}</time> <span><a href="{{ link.url }}">{{ link.title | markdownify | strip_html }}</a>&nbsp;<a href="{{ archive_url }}">(a)</a></span></li>
                 {% endfor %}
                 </ul>
             </nav>
