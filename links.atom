@@ -14,8 +14,8 @@
         <link href="{{ link.url }}"/>
         <updated>{{ link.date | date_to_xmlschema }}</updated>
     {% comment %}
-        <id>{{ site.url }}{{ post.id }}</id>
-        <content type="html">{{ post.content | xml_escape }}</content>
+        <id>{{ site.url }}{{ link.id }}</id>
+        <content type="html">{{ link.content | xml_escape }}</content>
     {% endcomment %}
     </entry>
 {% endfor %}
