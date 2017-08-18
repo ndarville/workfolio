@@ -34,7 +34,7 @@
                 <ul>
                 {% for link in site.data.links %}
                     {% capture archive_url %}{% if link.archive %}{{ link.archive }}{% else %}https://web.archive.org/web/*/{{ link.url }}{% endif %}{% endcapture %}
-                    <li><time datetime="{{ link.date | date: "%Y-%m-%d" }}" is="time-ago" title="{{ link.date | date: "%Y-%m-%d" }}">{{ link.date | date_to_string }}</time> <span><a href="{{ link.url }}">{{ link.title | markdownify | strip_html }}</a>&nbsp;<a href="{{ archive_url }}">(a)</a></span></li>
+                    <li><time datetime="{{ link.date | date: "%Y-%m-%d" }}" is="time-ago" title="{{ link.date | date: "%Y-%m-%d" }}">{{ link.date | date_to_string }}</time> <span><a href="{{ link.url }}">{{ site.quotes.left }}{{ link.title | markdownify | strip_html }}{{ site.quotes.right }}</a>&nbsp;<a title="{% if link.archive %}Archive link{% else %}Automatically generated archive link{% endif %} for {{ site.quotes.left }}{{ link.title }}{{ site.quotes.right }}" href="{{ archive_url }}">{{ site.archive_symbol }}</a></span></li>
                 {% endfor %}
                 </ul>
             </nav>

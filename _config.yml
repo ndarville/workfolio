@@ -7,6 +7,10 @@ url: https://sarahjeong.github.com # No trailing slash
 description: ""
 ga: UA-XXXXXXXX-Y
 use_css: true
+archive_symbol: "(a)"
+quotes:
+    left: "&ldquo;"
+    right: "&rdquo;"
 
 # Advanced settings
 data_dir: data
