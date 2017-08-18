@@ -44,7 +44,7 @@ How-To
 
     You only need to update the `name` and `url` fields under `Required settings`.
 
-    However, I’ve built in support for `archive` since a big issue with workfolios is your older work disappearing. [archive.is][] is great to make back up your work without too much effort. If no archive link is found, a query link for Internet Archive will be used instead&mdash;regardless of whether your article is archived.
+    However, I’ve built in support for `archive` since a big issue with workfolios is your older work disappearing. [archive.is][] is great to make back up your work without too much effort. If no archive link is found, a query link for Internet Archive will be used instead&mdash;regardless of whether your article is archived. I also heartily endorse the [Wayback Machine extension][wayback].
 
     **NB:** If you are using a private repository for this project, and you don’t want people to see your `links.yml` file, you must also delete this line in `_config.yml`:
 
@@ -126,6 +126,7 @@ Credits
 [e-mail settings]: https://github.com/settings/emails
 [create a repo]: https://github.com/new
 [archive.is]: https://archive.is
+[wayback]: https://blog.archive.org/2017/01/13/wayback-machine-chrome-extension-now-available/
 [custom-github-pages]: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
 [hafnia-times]: https://github.com/hafniatimes/hafniatimes.github.io
 [commit history]: https://github.com/ndarville/workfolio/commits/master
