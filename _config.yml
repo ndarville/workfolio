@@ -1,6 +1,7 @@
 # Required settings
 name: Sarah Jeong
 url: https://sarahjeong.github.com # No trailing slash
+# .github.com will redirects to .github.io fwiw
 
 # Optional settings
 description: ""

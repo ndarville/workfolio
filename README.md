@@ -9,6 +9,8 @@ With Workfolio, you can create a
 
 The site will be available at `github_username.github.io`.
 
+Technically, it will also be accessible through `github_username.github.com`, which will redirect to `.io`, so use whichever link you think looks better.
+
 If you know your way around Jekyll, GitHub, or static pages, you’ll also know how to host this elsewhere.
 
 Demo
