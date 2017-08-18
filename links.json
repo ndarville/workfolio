@@ -1,0 +1,24 @@
+---
+---
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": {{ site.name | smartify | jsonify }},
+    {% if site.description != "" %}"description": {{ site.description | smartify | jsonify }},{% endif %}
+    "home_page_url": "{{ site.url }}/",
+    "feed_url": "{{ site.url }}/links.json",
+    "author": {
+        "name": "{{ site.name | smartify }}",
+        "url": "{{ site.url }}"
+    },
+    "expired": false,
+    "items": [
+{% for link in site.data.links %}
+        {
+            "id": "{{ link.url }}",
+            "external_url": "{{ link.url }}",
+            "date_published": "{{ link.date }}",
+            "title": {{ link.title | smartify | jsonify }}
+        }{% unless forloop.last == true %},{% endunless %}
+{% endfor %}
+    ]
+}

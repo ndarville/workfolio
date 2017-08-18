@@ -2,7 +2,7 @@ Workfolio
 =========
 With Workfolio, you can create a
 
-* hosted RSS feed for your work
+* hosted RSS and JSON feed for your work
 * well-designed overview of your work
 
 (Or just a featured list of your work.)
