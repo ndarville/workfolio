@@ -11,6 +11,10 @@ The site will be available at `github_username.github.io`.
 
 If you know your way around Jekyll, GitHub, or static pages, you’ll also know how to host this elsewhere.
 
+Demo
+----
+As of this writing, you can check out the [live version][] of this repo.
+
 How-To
 ------
 1. Create a GitHub user, if you don’t already have one. Here is the [registration page][].
@@ -123,6 +127,7 @@ Credits
 * [skeleton.css][], the CSS framework for this project
 
 
+[live version]: https://ndarville.github.io/workfolio/
 [registration page]: https://github.com/join
 [e-mail settings]: https://github.com/settings/emails
 [create a repo]: https://github.com/new
