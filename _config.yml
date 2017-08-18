@@ -4,16 +4,16 @@ url: https://sarahjeong.github.com # No trailing slash
 # .github.com will redirects to .github.io fwiw
 
 # Optional settings
+archive_symbol: "(a)"
 description: ""
 ga: UA-XXXXXXXX-Y
 use_css: true
-archive_symbol: "(a)"
 quotes:
     left: "&ldquo;"
     right: "&rdquo;"
 
 # Advanced settings
 data_dir: data
-markdown: kramdown
 exclude:
     - "*.md"
+markdown: kramdown
