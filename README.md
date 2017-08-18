@@ -115,6 +115,7 @@ You can also use your RSS feed to trigger other events, be it with [IFTTT channe
 
 Related projects
 ----------------
+* [Goal Tracker][]
 * [Wishlist][]
 
 Credits
@@ -136,5 +137,6 @@ Credits
 [Connect your Twitter account]: https://ifttt.com/channels/twitter/activate
 [IFTTT channels]: https://ifttt.com/channels
 [Slack integrations]: https://ndarville.com/projects/slack/
+[goal tracker]: https://github.com/ndarville/goal-tracker
 [wishlist]: https://github.com/ndarville/wishlist
 [skeleton.css]: http://getskeleton.com
