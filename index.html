@@ -17,8 +17,8 @@
         <meta name="description" content="{{ site.description | markdownify | strip_html }}" />
     {% endif %}
         <link rel="canonical" href="{{ site.url }}" />
-        <link rel="alternate" href="/links.atom" title="Feed" type="application/atom+xml" />
-        <link rel="alternate" href="/links.json" title="JSON feed" type="application/json" />
+        <link rel="alternate" href="{{ site.baseurl }}/links.atom" title="Feed" type="application/atom+xml" />
+        <link rel="alternate" href="{{ site.baseurl }}/links.json" title="JSON feed" type="application/json" />
     {% if site.use_css == true %}
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha384-wKclsw1inR27tF/KhTEhyufz5SmBKSkOaIEKhq9qu8QbqeaMhzuGtCQmrghNKXq0" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" />
