@@ -52,6 +52,10 @@ How-To
 
     However, I’ve built in support for `archive` since a big issue with workfolios is your older work disappearing. [archive.is][] is great to make back up your work without too much effort. If no archive link is found, a query link for Internet Archive will be used instead&mdash;regardless of whether your article is archived. I also heartily endorse the [Wayback Machine extension][wayback].
 
+    I’ve decided to change the automatically generated archive link text to “(unarchived)” to annoy you into backing up your work and ensure people aren’t falsely lead to believe their work has been archived just because there’s an archive link.
+
+    (I also backed up the other two example “non-archived” articles, just in case.)
+
     **NB:** If you are using a private repository for this project, and you don’t want people to see your `links.yml` file, you must also delete this line in `_config.yml`:
 
         data_dir: data
